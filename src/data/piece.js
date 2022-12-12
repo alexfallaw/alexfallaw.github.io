@@ -1,14 +1,16 @@
 class Piece {
   constructor(
-    title,
-    year,
-    medium,
-    dimensions,
-    shortBlurb,
-    longBlurb,
-    smallPath,
-    largePath
+    id = 0,
+    title = "Title missing",
+    year = "Year missing",
+    medium = "Medium missing",
+    dimensions = "Dimensions missing",
+    shortBlurb = "Short blurb missing",
+    longBlurb = "Long blurb missing",
+    smallPath = "images/jpg/missing.jpg",
+    largePath = "images/png/missing.png"
   ) {
+    this.id = id;
     this.title = title;
     this.year = year;
     this.medium = medium;

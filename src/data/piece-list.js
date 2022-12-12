@@ -1,10 +1,9 @@
 import Piece from "./piece";
 
-const PieceMap = new Map();
-
-PieceMap.set(
-  1,
+const pieceArray = [];
+pieceArray.push(
   new Piece(
+    1,
     "Neon Hands",
     "2020",
     "Digital",
@@ -15,9 +14,9 @@ PieceMap.set(
     "image/png/neon_hands.png"
   )
 );
-PieceMap.set(
-  2,
+pieceArray.push(
   new Piece(
+    2,
     "Buttercup",
     "2020",
     "Digital",
@@ -28,9 +27,9 @@ PieceMap.set(
     "image/png/buttercup_love.png"
   )
 );
-PieceMap.set(
-  3,
+pieceArray.push(
   new Piece(
+    3,
     "Rose Skull",
     "2019",
     "Digital",
@@ -42,8 +41,4 @@ PieceMap.set(
   )
 );
 
-// const PieceArray = Array.from(PieceMap.values());
-
-// export default PieceArray;
-
-export default PieceMap;
+export default pieceArray;
