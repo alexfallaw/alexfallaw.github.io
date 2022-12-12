@@ -1,4 +1,4 @@
-import PieceArray from "../data/piece-list";
+import PieceMap from "../data/piece-list";
 import { GalleryItem } from "./gallery-item";
 
 export function Gallery() {
@@ -7,8 +7,12 @@ export function Gallery() {
       <p>Gallery</p>
 
       <div>
-        {PieceArray.map((piece) => (
-          <GalleryItem piece={piece} />
+        {/* {for (const [key, value] of PieceMap) {
+            <GalleryItem piece={value} key={key} />;
+        }} */}
+        PieceMap.forEach((data) => {<p>{data}</p>})
+        {worksArray.map((work) => (
+          <GalleryItem work={work} />
         ))}
       </div>
     </div>

@@ -42,6 +42,8 @@ PieceMap.set(
   )
 );
 
-const PieceArray = Array.from(PieceMap.values());
+// const PieceArray = Array.from(PieceMap.values());
 
-export default PieceArray;
+// export default PieceArray;
+
+export default PieceMap;
