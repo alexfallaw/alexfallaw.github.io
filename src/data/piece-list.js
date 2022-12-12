@@ -1,8 +1,10 @@
 import Piece from "./piece";
 
-const PieceList = new Map();
+const PieceMap = new Map();
 
-PieceList.set(1, new Piece(
+PieceMap.set(
+  1,
+  new Piece(
     "Neon Hands",
     "2020",
     "Digital",
@@ -10,8 +12,12 @@ PieceList.set(1, new Piece(
     "This is a doodle of two hands holding hands",
     "Blah blah blah blah blah blah blah blah",
     "images/jpg/neon_hands.jpg",
-    "image/png/neon_hands.png"));
-PieceList.set(2, new Piece(
+    "image/png/neon_hands.png"
+  )
+);
+PieceMap.set(
+  2,
+  new Piece(
     "Buttercup",
     "2020",
     "Digital",
@@ -19,8 +25,12 @@ PieceList.set(2, new Piece(
     "This is a drawing of some guy",
     "Blah blah blah blah blah blah blah blah",
     "images/jpg/buttercup_love.jpg",
-    "image/png/buttercup_love.png"));
-PieceList.set(3, new Piece(
+    "image/png/buttercup_love.png"
+  )
+);
+PieceMap.set(
+  3,
+  new Piece(
     "Rose Skull",
     "2019",
     "Digital",
@@ -28,6 +38,10 @@ PieceList.set(3, new Piece(
     "Personal project",
     "Blah blah blah blah blah blah blah blah",
     "images/jpg/rose_skull.jpg",
-    "image/png/rose_skull.png"));
+    "image/png/rose_skull.png"
+  )
+);
 
-export default PieceList;
+const PieceArray = Array.from(PieceMap.values());
+
+export default PieceArray;
