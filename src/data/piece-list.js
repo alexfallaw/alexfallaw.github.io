@@ -11,7 +11,8 @@ pieceArray.push(
     "This is a doodle of two hands holding hands",
     "Blah blah blah blah blah blah blah blah",
     "images/jpg/neon_hands.jpg",
-    "image/png/neon_hands.png"
+    "image/png/neon_hands.png",
+    "A red hand and a blue hand holding hands in a messy neon style"
   )
 );
 pieceArray.push(
@@ -24,7 +25,8 @@ pieceArray.push(
     "This is a drawing of some guy",
     "Blah blah blah blah blah blah blah blah",
     "images/jpg/buttercup_love.jpg",
-    "image/png/buttercup_love.png"
+    "image/png/buttercup_love.png",
+    "A lovestruck man clutching his heart, which is radiating out in rainbow colors filling the entire frame"
   )
 );
 pieceArray.push(
@@ -37,7 +39,8 @@ pieceArray.push(
     "Personal project",
     "Blah blah blah blah blah blah blah blah",
     "images/jpg/rose_skull.jpg",
-    "image/png/rose_skull.png"
+    "image/png/rose_skull.png",
+    "A skull with a rose growing in one of the eye sockets"
   )
 );
 
