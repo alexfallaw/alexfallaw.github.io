@@ -1,0 +1,42 @@
+#about-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+#top-bar {
+  width: 100%;
+}
+#headshot-holder {
+  background-color: #b4b4b4;
+  padding: 1rem;
+}
+#about-headshot {
+  width: 100%;
+}
+#about-title-holder {
+  background-color: #c5c5c5;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#about-title {
+  text-align: start;
+  font-size: 1.5rem;
+}
+#about-pronouns {
+  text-align: start;
+  font-size: 1.25rem;
+}
+#about-bio {
+  margin-top: 1.5rem;
+  background-color: #d6d6d6;
+  padding: 1rem;
+  width: 100%;
+}
+#about-bio-text {
+  text-align: start;
+}
