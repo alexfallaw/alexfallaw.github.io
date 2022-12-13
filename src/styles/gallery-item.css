@@ -1,0 +1,98 @@
+.gallery-item {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.gallery-item.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+}
+.gallery-item.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+.tombstone {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.left .tombstone {
+  flex-direction: row-reverse;
+}
+.img-holder {
+  width: 55%;
+  min-height: 7.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #b4b4b4;
+  padding: 1rem;
+  border: 0px solid transparent;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.gallery-img {
+  width: 100%;
+}
+.info {
+  max-width: 45%;
+  background-color: #c5c5c5;
+  padding: 0.75rem 1rem;
+}
+.right .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border: 0px solid transparent;
+  border-top-right-radius: 2.5rem;
+  padding-right: 1.5rem;
+}
+.left .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  border-top-left-radius: 2.5rem;
+  padding-left: 1.5rem;
+}
+.data {
+  margin-bottom: 0.125rem;
+  margin-top: 0.125rem;
+}
+.bottom-text {
+  padding: 1rem;
+  width: 100%;
+  background-color: #d6d6d6;
+}
+.right .bottom-text {
+  border: 0px solid transparent;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+}
+.left .bottom-text {
+  border: 0px solid transparent;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+.short-blurb {
+  margin-bottom: 0.125rem;
+  margin-top: 0rem;
+}
+.right .short-blurb {
+  text-align: start;
+  padding-left: 0.25rem;
+}
+.left .short-blurb {
+  text-align: end;
+  padding-right: 0.25rem;
+}

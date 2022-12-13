@@ -1,6 +1,7 @@
 import { Gallery } from "./components/gallery";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/App.css";
 
 function App() {
   return (
