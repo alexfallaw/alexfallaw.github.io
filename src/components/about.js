@@ -6,6 +6,7 @@ import Col from "react-bootstrap/Col";
 export function About() {
   return (
     <Container id="about-page">
+      <h1 id="about-title">About Me</h1>
       <Row id="top-bar">
         <Col id="headshot-holder" xs={7}>
           <img
@@ -14,13 +15,19 @@ export function About() {
             id="about-headshot"
           />
         </Col>
-        <Col id="about-title-holder" xs={5}>
-          <h2 id="about-title">Alex Fallaw</h2>
+        <Col id="about-info-holder" xs={5}>
+          <h2 id="about-name">Alex Fallaw</h2>
           <h3 id="about-pronouns">(they/them)</h3>
         </Col>
       </Row>
       <div id="about-bio">
-        <p id="about-bio-text">Blah blah blah blah blah</p>
+        <p id="about-bio-text">
+          I'm a graphic design student at the University of Illinois
+          Urbana-Champaign. I've been passionate about art for almost a decade,
+          experimenting with several different art forms over the years. I've
+          recently gotten into coding, and I love the problem-solving and
+          graphic design involved in coding a website.
+        </p>
       </div>
     </Container>
   );

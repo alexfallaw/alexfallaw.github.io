@@ -5,6 +5,13 @@
   justify-content: flex-start;
   padding: 2rem;
 }
+#about-title {
+  font-size: 2rem;
+  padding: 1.5rem 2.5rem;
+  background-color: #c5c5c5;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
 #top-bar {
   width: 100%;
 }
@@ -15,21 +22,22 @@
 #about-headshot {
   width: 100%;
 }
-#about-title-holder {
+#about-info-holder {
   background-color: #c5c5c5;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
-#about-title {
+#about-name {
   text-align: start;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
 #about-pronouns {
   text-align: start;
   font-size: 1.25rem;
+  font-style: italic;
 }
 #about-bio {
   margin-top: 1.5rem;
@@ -39,4 +47,5 @@
 }
 #about-bio-text {
   text-align: start;
+  margin-bottom: 0.25rem;
 }
