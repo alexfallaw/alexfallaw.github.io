@@ -1,9 +1,9 @@
 #resume-viewer {
-  padding: 2rem;
   height: 100vh;
 }
 #pdf-view {
   width: 100%;
+  min-width: 50vw;
   display: block;
   overflow: auto;
   height: 90vh;

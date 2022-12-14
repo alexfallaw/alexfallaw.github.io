@@ -28,6 +28,7 @@
 }
 .img-holder {
   width: 55%;
+  max-width: 25rem;
   min-height: 7.75rem;
   display: flex;
   align-items: center;
@@ -70,6 +71,7 @@
 .bottom-text {
   padding: 1rem;
   width: 100%;
+  max-width: 40rem;
   background-color: #d6d6d6;
 }
 .right .bottom-text {

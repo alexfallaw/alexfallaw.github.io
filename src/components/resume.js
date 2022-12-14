@@ -1,9 +1,12 @@
 import "../styles/resume.css";
+import "../styles/common.css";
 
 export function Resume() {
   return (
-    <div id="resume-viewer">
-      <embed src="images/alexfallawresume.pdf" id="pdf-view" />
+    <div className="bod">
+      <div id="resume-viewer" className="inner-bod">
+        <embed src="images/alexfallawresume.pdf" id="pdf-view" />
+      </div>
     </div>
   );
 }

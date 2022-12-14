@@ -16,6 +16,7 @@
   width: 40%;
   padding: 1.5rem;
   background-color: #b4b4b4;
+  max-width: 15rem;
 }
 .circle .img-bubble {
   border: 0px solid transparent;
@@ -26,6 +27,7 @@
 }
 .name-holder {
   width: 45%;
+  max-width: 13rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
