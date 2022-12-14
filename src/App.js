@@ -1,3 +1,4 @@
+import { HeaderBar } from "./components/header-bar";
 import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Home } from "./components/home";
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <div className="container-flex">
         <Router>
+          <HeaderBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
