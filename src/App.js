@@ -1,5 +1,6 @@
 import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
+import { Home } from "./components/home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
@@ -10,6 +11,7 @@ function App() {
       <div className="container-flex">
         <Router>
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery />} />
           </Routes>

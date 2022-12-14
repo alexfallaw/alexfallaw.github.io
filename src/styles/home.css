@@ -1,0 +1,14 @@
+#home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+#home-title {
+  font-size: 2rem;
+  padding: 1.25rem 2rem;
+  background-color: #c5c5c5;
+  border: 0px solid transparent;
+  border-radius: 5rem;
+}
