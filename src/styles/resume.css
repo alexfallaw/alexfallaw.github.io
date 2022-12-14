@@ -1,0 +1,10 @@
+#resume-viewer {
+  padding: 2rem;
+  height: 100vh;
+}
+#pdf-view {
+  width: 100%;
+  display: block;
+  overflow: auto;
+  height: 90vh;
+}
