@@ -18,10 +18,6 @@
   background-color: #b4b4b4;
   max-width: 15rem;
 }
-.circle .img-bubble {
-  border: 0px solid transparent;
-  border-radius: 2rem;
-}
 .home-thumbnail {
   width: 100%;
 }
@@ -37,6 +33,9 @@
 }
 .square .name-holder {
   flex-direction: row-reverse;
+  border: 0px solid transparent;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
 }
 .circle .name-holder {
   flex-direction: row;

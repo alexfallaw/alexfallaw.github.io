@@ -14,3 +14,8 @@
 .head-img {
   height: 100%;
 }
+#back {
+  background-color: transparent;
+  outline: none;
+  border: 0px solid transparent;
+}
