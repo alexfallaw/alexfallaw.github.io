@@ -7,10 +7,9 @@ class Piece {
     dimensions = "Dimensions missing",
     shortBlurb = "Short blurb missing",
     longBlurb = "Long blurb missing",
-    smallPath = "images/jpg/missing.jpg",
-    largePath = "images/png/missing.png",
-    altText = "Alt text missing",
-    link = "none"
+    smallPath = "/images/jpg/missing.jpg",
+    largePath = "/images/png/missing.png",
+    altText = "Alt text missing"
   ) {
     this.id = id;
     this.title = title;
@@ -22,7 +21,6 @@ class Piece {
     this.smallPath = smallPath;
     this.largePath = largePath;
     this.altText = altText;
-    this.link = link;
   }
 }
 

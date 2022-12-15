@@ -2,7 +2,7 @@ class Page {
   constructor(
     id = 0,
     name = "Title missing",
-    thumbnail = "images/jpg/missing.jpg",
+    thumbnail = "/images/jpg/missing.jpg",
     link = "/"
   ) {
     this.id = id;

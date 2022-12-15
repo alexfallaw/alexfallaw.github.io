@@ -3,8 +3,8 @@ import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Home } from "./components/home";
 import { Resume } from "./components/resume";
+import { PieceFocus } from "./components/piece-focus";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { generatePath } from "react-router";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
 
@@ -19,7 +19,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path={generatePath("/*", { "*": 4 })} />
+            <Route path="/piece/:id" element={<PieceFocus />} />
           </Routes>
         </Router>
       </div>

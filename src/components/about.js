@@ -14,7 +14,7 @@ export function About() {
         <Row id="top-bar">
           <Col id="headshot-holder" className="img-bg" xs={7}>
             <img
-              src="images/thumbnails/headshot.jpg"
+              src="/images/thumbnails/headshot.jpg"
               alt="Headshot of Alex Fallaw"
               id="about-headshot"
             />

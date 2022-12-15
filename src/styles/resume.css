@@ -1,10 +1,13 @@
-#resume-viewer {
+/* #resume-viewer {
   height: 100vh;
-}
+} */
 #pdf-view {
   width: 100%;
   min-width: 50vw;
   display: block;
   overflow: auto;
   height: 90vh;
+}
+#resume-bod {
+  padding-bottom: 0rem !important;
 }
