@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/gallery-item.css";
+import "../styles/common.css";
 
 export const GalleryItem = ({ piece }) => (
   <div className={`gallery-item ${piece.id % 2 === 1 ? "right" : "left"}`}>

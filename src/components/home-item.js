@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/home-item.css";
+import "../styles/common.css";
 import { Link } from "react-router-dom";
 
 export const HomeItem = ({ page }) => (
-  <div className={`home-item ${page.id % 2 === 1 ? "square" : "circle"}`}>
+  <div className={`home-item ${page.id % 2 === 1 ? "right" : "left"}`}>
     <Link to={page.link} className="img-bubble">
       <img src={page.thumbnail} alt="" className="home-thumbnail" />
     </Link>

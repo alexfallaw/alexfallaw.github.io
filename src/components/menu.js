@@ -1,5 +1,6 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import "../styles/menu.css";
+import "../styles/common.css";
 export function Menu() {
   return (
     <Dropdown>

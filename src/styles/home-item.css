@@ -6,10 +6,10 @@
   margin-top: 2rem;
   text-decoration: none;
 }
-.home-item.square {
+.home-item.right {
   flex-direction: row-reverse;
 }
-.home-item.circle {
+.home-item.left {
   flex-direction: row;
 }
 .img-bubble {
@@ -31,13 +31,13 @@
   padding: 0.75rem;
   text-decoration: none;
 }
-.square .name-holder {
+.right .name-holder {
   flex-direction: row-reverse;
   border: 0px solid transparent;
   border-top-left-radius: 5rem;
   border-bottom-left-radius: 5rem;
 }
-.circle .name-holder {
+.left .name-holder {
   flex-direction: row;
   border: 0px solid transparent;
   border-top-right-radius: 5rem;
