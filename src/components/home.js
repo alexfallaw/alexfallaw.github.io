@@ -5,10 +5,12 @@ import "../styles/common.css";
 
 export function Home() {
   return (
-    <div className="bod">
+    <div className="bod web-bg">
       <div id="home-page" className="inner-bod">
         <div id="home-title-holder">
-          <h1 id="home-title">Alex Fallaw Portfolio</h1>
+          <h1 id="home-title" className="text-alt-bg">
+            Alex Fallaw Portfolio
+          </h1>
         </div>
         <div id="page-holder">
           {pageArray.map((page, i) => (

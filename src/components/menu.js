@@ -5,11 +5,7 @@ export function Menu() {
   return (
     <Dropdown>
       <Dropdown.Toggle variant="success" id="dropdown-custom-1">
-        <img
-          src="images/icons/hamburger_light.svg"
-          alt=""
-          className="menu-img"
-        />
+        <img src="images/icons/hamburger.svg" alt="" className="menu-img" />
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
