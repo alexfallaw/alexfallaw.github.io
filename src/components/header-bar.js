@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export function HeaderBar() {
   let navigate = useNavigate();
   return (
-    <div className="head img-bg">
+    <div className="head head-bg">
       <div id="head-bar">
         <button onClick={() => navigate(-1)} id="back" className="head-icon">
           <img src="/images/icons/back-arrow.svg" alt="" className="head-img" />

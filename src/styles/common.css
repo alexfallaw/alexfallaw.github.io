@@ -26,6 +26,12 @@
 .img-bg {
   background-color: #39afa8;
 }
-.symbol {
-  background-color: #2f4858;
+.button {
+  background-color: #46ced7;
+}
+.button:hover {
+  background-color: #17a2b5;
+}
+.head-bg {
+  background-color: #55b4a0;
 }

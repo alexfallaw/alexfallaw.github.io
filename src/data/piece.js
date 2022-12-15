@@ -9,7 +9,8 @@ class Piece {
     longBlurb = "Long blurb missing",
     smallPath = "/images/jpg/missing.jpg",
     largePath = "/images/png/missing.png",
-    altText = "Alt text missing"
+    altText = "Alt text missing",
+    fileSize = "unknown file size"
   ) {
     this.id = id;
     this.title = title;
@@ -21,6 +22,7 @@ class Piece {
     this.smallPath = smallPath;
     this.largePath = largePath;
     this.altText = altText;
+    this.fileSize = fileSize;
   }
 }
 
