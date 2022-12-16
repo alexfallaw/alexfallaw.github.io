@@ -32,7 +32,7 @@ export function PieceFocus() {
             href={piece.largePath}
             target="_blank"
             id="focus-button"
-            className="button"
+            className="button-bg"
           >
             <p>Open HD Image in New Tab</p>
             <p>[{piece.fileSize}]</p>

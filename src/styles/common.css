@@ -22,15 +22,17 @@
 }
 .button-bg {
   background-color: #46ced7;
+  transition-property: background-color;
+  transition-duration: 0.125s;
+  transition-timing-function: ease-in;
+}
+.button-bg:hover {
+  background-color: #17a2b5;
+  transition-property: background-color;
+  transition-duration: 0.125s;
 }
 .img-bg {
   background-color: #4f9995;
-}
-.button {
-  background-color: #46ced7;
-}
-.button:hover {
-  background-color: #17a2b5;
 }
 .head-bg {
   background-color: #55b4a0;

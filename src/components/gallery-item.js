@@ -20,7 +20,7 @@ export const GalleryItem = ({ piece }) => (
     </div>
     <div className="bottom-text text-bg">
       <p className="short-blurb">{piece.shortBlurb}</p>
-      <a href={`/piece/${piece.id}`} id="more-button" className="button">
+      <a href={`/piece/${piece.id}`} id="more-button" className="button-bg">
         <img src="/images/icons/plus.svg" alt="more" id="more-plus" />
       </a>
     </div>

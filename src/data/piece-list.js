@@ -124,21 +124,6 @@ pieceArray.push(
 pieceArray.push(
   new Piece(
     8,
-    "Molly Moon Cover",
-    "Fall 2021",
-    "Digital, Illustrator",
-    "19.7 x 8.55 in",
-    "2D Composition assignment",
-    "",
-    "/images/jpg/molly_moon.jpg",
-    "/images/png/molly_moon.png",
-    'A book cover for "Molly Moon\'s Hypnotic Time Travel Adventure" by Georgia Byng. The front cover features a peacock surrounded by spread out peacock feathers with stylized eyes on them.',
-    "4,272 KB"
-  )
-);
-pieceArray.push(
-  new Piece(
-    9,
     "Charcoal Still Life",
     "Fall 2021",
     "Charcoal on paper",
@@ -153,7 +138,7 @@ pieceArray.push(
 );
 pieceArray.push(
   new Piece(
-    10,
+    9,
     "TF2 Poster",
     "Fall 2022",
     "Digital, Illustrator",
@@ -168,7 +153,7 @@ pieceArray.push(
 );
 pieceArray.push(
   new Piece(
-    11,
+    10,
     "Dr. Strangelove Collage",
     "Fall 2022",
     "Digital, Photoshop",
@@ -183,8 +168,8 @@ pieceArray.push(
 );
 pieceArray.push(
   new Piece(
-    12,
-    "Dropcap I",
+    11,
+    "Dropcap Letter I",
     "Fall 2022",
     "Digital, Illustrator",
     "12.5 x 19 in",
@@ -198,7 +183,7 @@ pieceArray.push(
 );
 pieceArray.push(
   new Piece(
-    13,
+    12,
     "Ricker Library Sticker: Y",
     "Fall 2022",
     "Digital, Illustrator",
@@ -213,22 +198,22 @@ pieceArray.push(
 );
 pieceArray.push(
   new Piece(
-    14,
+    13,
     "Ricker Library Sticker: R",
     "Fall 2022",
     "Digital, Illustrator",
     "3 x 3 in",
     "Typographic Practice assignment, promotional sticker for UIUC's Ricker Library",
     "",
-    "/images/jpg/y_sticker.jpg",
-    "/images/png/y_sticker.png",
+    "/images/jpg/r_sticker.jpg",
+    "/images/png/r_sticker.png",
     "Gray sticker saying Ricker Library with a dropcap R that looks like crystal",
     "139 KB"
   )
 );
 pieceArray.push(
   new Piece(
-    15,
+    14,
     "Juan Gabriel Tribute",
     "Fall 2022",
     "Digital, Photoshop",
@@ -243,13 +228,13 @@ pieceArray.push(
 );
 pieceArray.push(
   new Piece(
-    16,
+    15,
     "Black Beauty Cover",
     "Fall 2022",
     "Digital, InDesign and Photoshop",
     "19 x 9 in",
-    "",
     "Typograpgic Practice assignment",
+    "",
     "/images/jpg/black_beauty.jpg",
     "/images/png/black_beauty.png",
     "Book jacket spread for Black Beauty by Anna Sewell, in the style of classic Victorian book covers with gold leaf and intricate patterns",
