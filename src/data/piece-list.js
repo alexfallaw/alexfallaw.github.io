@@ -1,21 +1,21 @@
 import Piece from "./piece";
 
 const pieceArray = [];
-pieceArray.push(
-  new Piece(
-    0,
-    "",
-    "",
-    "",
-    "",
-    "",
-    "",
-    "/images/jpg/.jpg",
-    "/images/png/.png",
-    "",
-    ""
-  )
-);
+// pieceArray.push(
+//   new Piece(
+//     0,
+//     "",
+//     "",
+//     "",
+//     "",
+//     "",
+//     "",
+//     "/images/jpg/.jpg",
+//     "/images/png/.png",
+//     "",
+//     ""
+//   )
+// );
 pieceArray.push(
   new Piece(
     1,
@@ -127,7 +127,7 @@ pieceArray.push(
     "Molly Moon Cover",
     "Fall 2021",
     "Digital, Illustrator",
-    "5909 x 2564 px",
+    "19.7 x 8.55 in",
     "2D Composition assignment",
     "",
     "/images/jpg/molly_moon.jpg",
@@ -149,6 +149,111 @@ pieceArray.push(
     "/images/png/still_life.png",
     "Five still lifes arranged on one canvas. The middle one is a closeup of a glittery ornament. Clockwise from the top: a shelf with a glittery ornament on it, a bent bike wheel, two ornaments and a duck on wrinkled fabric, and a different bent bike wheel with a plant growing through it",
     "21,698 KB"
+  )
+);
+pieceArray.push(
+  new Piece(
+    10,
+    "TF2 Poster",
+    "Fall 2022",
+    "Digital, Illustrator",
+    "18 x 24 in",
+    "Typographic Practice assignment, infographic about Team Fortress 2 for print",
+    "",
+    "/images/jpg/tf2_poster.jpg",
+    "/images/png/tf2_poster.png",
+    "Infographic on the different classes in the game Team Fortress 2",
+    "763 KB"
+  )
+);
+pieceArray.push(
+  new Piece(
+    11,
+    "Dr. Strangelove Collage",
+    "Fall 2022",
+    "Digital, Photoshop",
+    "991 x 1033 px",
+    "Contemperary Issues in Art assignment",
+    "",
+    "/images/jpg/strange_collage.jpg",
+    "/images/png/strange_collage.png",
+    "Digital painting of Dr. Strangelove with collages of movie stills in his hair and suit, in front of a collage of movie stills in windows",
+    "704 KB"
+  )
+);
+pieceArray.push(
+  new Piece(
+    12,
+    "Dropcap I",
+    "Fall 2022",
+    "Digital, Illustrator",
+    "12.5 x 19 in",
+    "Typographic Practice assignment, part of series of posters to promote UIUC's Ricker Library",
+    "",
+    "/images/jpg/dropcap_i.jpg",
+    "/images/png/dropcap_i.png",
+    "Dropcap letter I",
+    "289 KB"
+  )
+);
+pieceArray.push(
+  new Piece(
+    13,
+    "Ricker Library Sticker: Y",
+    "Fall 2022",
+    "Digital, Illustrator",
+    "3 x 3 in",
+    "Typographic Practice assignment, promotional sticker for UIUC's Ricker Library",
+    "",
+    "/images/jpg/y_sticker.jpg",
+    "/images/png/y_sticker.png",
+    'Sticker of the letter Y with the words "Ricker Library" in the stem of the Y',
+    "234 KB"
+  )
+);
+pieceArray.push(
+  new Piece(
+    14,
+    "Ricker Library Sticker: R",
+    "Fall 2022",
+    "Digital, Illustrator",
+    "3 x 3 in",
+    "Typographic Practice assignment, promotional sticker for UIUC's Ricker Library",
+    "",
+    "/images/jpg/y_sticker.jpg",
+    "/images/png/y_sticker.png",
+    "Gray sticker saying Ricker Library with a dropcap R that looks like crystal",
+    "139 KB"
+  )
+);
+pieceArray.push(
+  new Piece(
+    15,
+    "Juan Gabriel Tribute",
+    "Fall 2022",
+    "Digital, Photoshop",
+    "2400 x 1500 px",
+    "Tribute to Juan Gabriel (1950 - 2016)",
+    "",
+    "/images/jpg/juan_gabriel.jpg",
+    "/images/png/juan_gabriel.png",
+    "Digital painting of Juan Gabriel in a glittery purple suit with his arms spread and a halo of flowers around his head",
+    "2,181 KB"
+  )
+);
+pieceArray.push(
+  new Piece(
+    16,
+    "Black Beauty Cover",
+    "Fall 2022",
+    "Digital, InDesign and Photoshop",
+    "19 x 9 in",
+    "",
+    "Typograpgic Practice assignment",
+    "/images/jpg/black_beauty.jpg",
+    "/images/png/black_beauty.png",
+    "Book jacket spread for Black Beauty by Anna Sewell, in the style of classic Victorian book covers with gold leaf and intricate patterns",
+    "5,558 KB"
   )
 );
 
