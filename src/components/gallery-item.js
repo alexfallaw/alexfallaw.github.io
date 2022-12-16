@@ -13,7 +13,7 @@ export const GalleryItem = ({ piece }) => (
         />
       </div>
       <div className="info text-alt-bg">
-        <p className="data">{piece.title}</p>
+        <h2 className="data">{piece.title}</h2>
         <p className="data">{piece.year}</p>
         <p className="data">{piece.medium}</p>
       </div>

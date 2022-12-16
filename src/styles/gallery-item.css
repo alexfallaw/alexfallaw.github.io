@@ -39,7 +39,7 @@
   border-top-right-radius: 1rem;
 }
 .gallery-img {
-  width: 100%;
+  max-width: 100%;
 }
 .info {
   max-width: 45%;
@@ -61,6 +61,13 @@
   align-items: flex-end;
   border-top-left-radius: 2.5rem;
   padding-left: 1.5rem;
+}
+.info h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.info p {
+  font-style: italic;
 }
 .data {
   margin-bottom: 0.125rem;
@@ -120,7 +127,7 @@
   padding: 0;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 600px) {
   .right .info {
     border-bottom-right-radius: 2.5rem;
   }
