@@ -9,7 +9,7 @@ export function Home() {
       <div id="home-page" className="inner-bod">
         <div id="home-title-holder">
           <h1 id="home-title" className="text-alt-bg">
-            Alex Fallaw Portfolio
+            Alex Fallaw
           </h1>
         </div>
         <div id="page-holder">
