@@ -5,13 +5,13 @@ import "../styles/common.css";
 export const GalleryItem = ({ piece }) => (
   <div className={`gallery-item ${piece.id % 2 === 1 ? "right" : "left"}`}>
     <div className="tombstone">
-      <div className="img-holder img-bg">
+      <a href={`/piece/${piece.id}`} className="img-holder img-bg">
         <img
           src={piece.smallPath}
           className="gallery-img"
           alt={piece.altText}
         />
-      </div>
+      </a>
       <div className="info text-alt-bg">
         <h2 className="data">{piece.title}</h2>
         <p className="data">{piece.year}</p>
