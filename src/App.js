@@ -4,7 +4,7 @@ import { Gallery } from "./components/gallery";
 import { Home } from "./components/home";
 import { Resume } from "./components/resume";
 import { PieceFocus } from "./components/piece-focus";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/App.css";
 
