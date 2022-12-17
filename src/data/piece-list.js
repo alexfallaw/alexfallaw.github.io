@@ -233,7 +233,7 @@ pieceArray.push(
     "Fall 2022",
     "Digital, InDesign and Photoshop",
     "19 x 9 in",
-    "Typograpgic Practice assignment",
+    "Typographic Practice assignment",
     "",
     "/images/jpg/black_beauty.jpg",
     "/images/png/black_beauty.png",
