@@ -4,7 +4,7 @@ import "../styles/common.css";
 import { Link } from "react-router-dom";
 
 export const HomeItem = ({ page }) => (
-  <div className={`home-item ${page.id % 2 === 1 ? "right" : "left"}`}>
+  <div className={`home-item ${page.id % 2 === 1 ? "left" : "right"}`}>
     <Link to={page.link} className="img-bubble img-bg">
       <img src={page.thumbnail} alt="" className="home-thumbnail" />
     </Link>
