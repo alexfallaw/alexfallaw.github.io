@@ -38,11 +38,11 @@
 }
 #about-bio {
   margin-top: 1.5rem;
-  padding: 1rem;
+  padding: 1.5rem 1.75rem;
   width: 100%;
 }
 #about-bio-text {
   text-align: start;
   margin-bottom: 0.25rem;
-  font-size: 1.5rem;
+  font-size: 1.125rem;
 }
