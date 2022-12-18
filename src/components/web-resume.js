@@ -26,10 +26,11 @@ export function WebResume() {
               I'm a graphic design and computer science student at the
               University of Illinois Urbana-Champaign. I've been passionate
               about art for almost a decade, experimenting with several
-              different art forms over the years. I've recently gotten into
-              coding, and I love the problem-solving and graphic design involved
-              in coding a website. I'm looking for an internship or entry-level
-              job in web or graphic design.
+              different art forms over the years. I have also come to love
+              coding, both web design and program development. I really enjoy
+              the problem-solving involved in programming, and I appreciate the
+              flexibility it gives me in manifesting my designs. I'm looking for
+              an internship or entry-level job in web or graphic design.
             </p>
           </section>
           <section id="skills-sec" className="res-sec">
