@@ -30,7 +30,9 @@ export function About() {
             of Illinois Urbana-Champaign. I've been passionate about art for
             almost a decade, experimenting with several different art forms over
             the years. I've recently gotten into coding, and I love the
-            problem-solving and graphic design involved in coding a website.
+            problem-solving and graphic design involved in coding a website. I
+            designed this website in Figma and implemented it in React js, and
+            all of the gallery pieces are my own work.
           </p>
         </div>
       </Container>
