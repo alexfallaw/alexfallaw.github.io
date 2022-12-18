@@ -29,10 +29,12 @@ export function About() {
             I'm a graphic design and computer science student at the University
             of Illinois Urbana-Champaign. I've been passionate about art for
             almost a decade, experimenting with several different art forms over
-            the years. I've recently gotten into coding, and I love the
-            problem-solving and graphic design involved in coding a website. I
-            designed this website in Figma and implemented it in React js, and
-            all of the gallery pieces are my own work.
+            the years. I have also come to love coding, both web design and
+            program development. I really enjoy the problem-solving involved in
+            programming, and I appreciate the flexibility it gives me in
+            manifesting my designs. I designed this website in Figma and
+            implemented it in React js, and all of the gallery pieces are my own
+            work.
           </p>
         </div>
       </Container>
