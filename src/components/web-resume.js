@@ -15,7 +15,7 @@ export function WebResume() {
             <div id="res-name-holder">
               <h2 id="res-name">Alex Fallaw</h2>
             </div>
-            <hr />
+            <hr id="res-divider" />
             <div id="res-subtitle-holder">
               <p id="res-subtitle">Graphic Designer</p>
             </div>
@@ -36,8 +36,8 @@ export function WebResume() {
               Skill Highlights
             </h3>
             <div className="two-columns">
-              <div id="left-column" className="half-column">
-                <ul>
+              <div className="half-column left-column">
+                <ul className="skill-list">
                   <li>Digital design</li>
                   <li>Instructional graphic design</li>
                   <li>Website design</li>
@@ -46,12 +46,12 @@ export function WebResume() {
                   <li>
                     Adobe Creative Suite (Photoshop, Illustrator, InDesign)
                   </li>
+                  <li>SketchBook</li>
                   <li>Figma</li>
                 </ul>
               </div>
-              <div id="right-column" className="half-column">
-                <ul>
-                  <li>SketchBook</li>
+              <div className="half-column right-column">
+                <ul className="skill-list">
                   <li>WordPress</li>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -68,19 +68,23 @@ export function WebResume() {
               Education
             </h3>
             <div className="edu-block">
-              <h4 className="edu-h">University of Illinois Urbana-Champaign</h4>
+              <h4 className="edu-h res-h">
+                University of Illinois Urbana-Champaign
+              </h4>
               <span className="edu-info">
                 Graphic Design, BFA with minor in Computer Science
               </span>
               <span className="edu-info">2022 - Present</span>
             </div>
             <div className="edu-block">
-              <h4 className="edu-h">University of Wisconsin Eau Claire</h4>
+              <h4 className="edu-h res-h">
+                University of Wisconsin Eau Claire
+              </h4>
               <span className="edu-info">Graphic Communications</span>
               <span className="edu-info">2021 - 2022</span>
             </div>
             <div className="edu-block">
-              <h4 className="edu-h">Parkland College</h4>
+              <h4 className="edu-h res-h">Parkland College</h4>
               <span className="edu-info">General Studies</span>
               <span className="edu-info">2020 - 2021</span>
             </div>
@@ -90,33 +94,33 @@ export function WebResume() {
               Work Experience
             </h3>
             <div className="work-block">
-              <h4 className="work-h">Lowes Cashier</h4>
+              <h4 className="work-h res-h">Lowes Cashier</h4>
               <ul className="work-list">
                 <li>
                   Responsibilities
-                  <ul>
+                  <ul className="sublist">
                     <li>Deliver excellent customer service at the register</li>
                     <li>Answer customer questions</li>
                   </ul>
                 </li>
-                <li>May 2021 - August 2021</li>
-                <li>Champaign, IL</li>
                 <li>Was awarded a service award for customer service</li>
+                <li className="work-info">May 2021 - August 2021</li>
+                <li className="work-info">Champaign, IL</li>
               </ul>
             </div>
             <div className="work-block">
-              <h4 className="work-h">Lowes Cashier</h4>
+              <h4 className="work-h res-h">House Cleaner</h4>
               <ul className="work-list">
                 <li>
                   Responsibilities
-                  <ul>
+                  <ul className="sublist">
                     <li>Dishes</li>
                     <li>Vacuuming</li>
                     <li>General cleaning</li>
                   </ul>
                 </li>
-                <li>December 2019 - August 2021</li>
-                <li>Champaign, IL</li>
+                <li className="work-info">December 2019 - August 2021</li>
+                <li className="work-info">Champaign, IL</li>
               </ul>
             </div>
           </section>

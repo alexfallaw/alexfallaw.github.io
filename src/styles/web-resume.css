@@ -1,0 +1,108 @@
+#res-title-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+#res-title {
+  padding: 1.5rem 2rem;
+}
+
+/* full resume */
+#res-holder {
+  text-align: start;
+  padding: 4rem;
+}
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* #res-holder section {
+  outline: 4px solid blue;
+}
+#res-holder div {
+  outline: 2px solid red;
+} */
+.res-h {
+  font-family: Oswald, sans-serif;
+  font-size: 1.5rem;
+}
+.res-sec {
+  margin: 2rem 0rem;
+}
+.left-column {
+  margin-right: 3rem;
+}
+ul {
+  list-style: none;
+}
+
+/* head */
+#head-sec {
+  margin-top: 0rem;
+}
+#res-name {
+  font-family: Oswald, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#res-divider {
+  margin: 0;
+}
+#res-subtitle-holder {
+  margin-top: 0.25rem;
+}
+#res-subtitle {
+  font-family: Oswald, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+/* bio */
+#bio-sec {
+  padding: 0rem 2rem;
+}
+#res-bio {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+}
+/* skills */
+.skill-list {
+  list-style: none;
+  padding-left: 2rem;
+}
+
+/* education */
+.edu-h {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.edu-info {
+  display: block;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+}
+.edu-block {
+  margin-top: 0.75rem;
+  margin-left: 2rem;
+}
+/* work */
+#work-sec {
+  margin-bottom: 0rem;
+}
+.work-h {
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+.work-block {
+  margin-left: 2rem;
+}
+.work-info {
+  font-style: italic;
+}
