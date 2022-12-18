@@ -13,6 +13,18 @@ export function PieceFocus() {
   let paramID = parseInt(id);
   const piece = pieceArray.find((element) => element.id === paramID);
 
+  let pieceImg = (
+    <img src={piece.smallPath} alt={piece.altText} id="focus-img" />
+  );
+  let pieceBttnTxt = "Open HD Image in New Tab";
+  let pieceLink = piece.largePath;
+
+  if (piece.title === "Frog Factory") {
+    pieceImg = <img src={piece.largePath} alt={piece.altText} id="focus-img" />;
+    pieceBttnTxt = "Open p5.js Interactive in New Tab";
+    pieceLink = "https://editor.p5js.org/alexfallaw/full/dHOEg4YCO";
+  }
+
   return (
     <div className="bod web-bg">
       <Container id="focus-page" className="inner-bod">
@@ -28,18 +40,20 @@ export function PieceFocus() {
             </div>
           </Col>
         </Row>
-        <div id="focus-img-holder" className="img-bg">
-          <img src={piece.smallPath} alt={piece.altText} id="focus-img" />
-        </div>
+        <a href={pieceLink} target="_blank" rel="noreferrer">
+          <div id="focus-img-holder" className="img-bg">
+            {pieceImg}
+          </div>
+        </a>
         <div id="focus-bottom" className="text-bg">
           <p id="focus-text">{piece.longBlurb}</p>
           <Button
-            href={piece.largePath}
+            href={pieceLink}
             target="_blank"
             id="focus-button"
             className="button-bg"
           >
-            <p>Open HD Image in New Tab</p>
+            <p>{pieceBttnTxt}</p>
             <p>[{piece.fileSize}]</p>
           </Button>
         </div>

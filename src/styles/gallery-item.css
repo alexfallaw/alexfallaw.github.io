@@ -167,7 +167,7 @@
     justify-content: flex-start;
   }
   .info {
-    max-width: 100%;
+    width: 100%;
   }
   .right .info {
     display: flex;

@@ -241,5 +241,20 @@ pieceArray.push(
     "5,558 KB"
   )
 );
+pieceArray.push(
+  new Piece(
+    16,
+    "Frog Factory",
+    "Fall 2022",
+    "p5.js",
+    "600 x 600 px",
+    "Interactive project (click button to play)",
+    "",
+    "/images/jpg/frog_factory.jpg",
+    "/images/png/frog_factory.png",
+    "Stylized white frog with black eyes",
+    "p5 page"
+  )
+);
 
 export default pieceArray;
