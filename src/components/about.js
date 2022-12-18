@@ -26,10 +26,10 @@ export function About() {
         </Row>
         <div id="about-bio" className="text-bg">
           <p id="about-bio-text">
-            I'm a graphic design student at the University of Illinois
-            Urbana-Champaign. I've been passionate about art for almost a
-            decade, experimenting with several different art forms over the
-            years. I've recently gotten into coding, and I love the
+            I'm a graphic design and computer science student at the University
+            of Illinois Urbana-Champaign. I've been passionate about art for
+            almost a decade, experimenting with several different art forms over
+            the years. I've recently gotten into coding, and I love the
             problem-solving and graphic design involved in coding a website.
           </p>
         </div>

@@ -2,6 +2,9 @@ import React from "react";
 import pieceArray from "../data/piece-list";
 import { useParams } from "react-router-dom";
 import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import "../styles/piece-focus.css";
 import "../styles/common.css";
 
@@ -12,17 +15,19 @@ export function PieceFocus() {
 
   return (
     <div className="bod web-bg">
-      <div id="focus-page" className="inner-bod">
-        <div id="focus-bar">
-          <h1 id="focus-title" className="text-alt-bg">
-            {piece.title}
-          </h1>
-          <div id="focus-info" className="text-bg">
-            <p className="focus-info-bit">{piece.year}</p>
-            <p className="focus-info-bit">{piece.medium}</p>
-            <p className="focus-info-bit">{piece.dimensions}</p>
-          </div>
-        </div>
+      <Container id="focus-page" className="inner-bod">
+        <Row id="focus-bar">
+          <Col id="focus-title-holder" className="text-alt-bg">
+            <h1 id="focus-title">{piece.title}</h1>
+          </Col>
+          <Col id="focus-info-holder" className="text-bg">
+            <div id="focus-info">
+              <p className="focus-info-bit">{piece.year}</p>
+              <p className="focus-info-bit">{piece.medium}</p>
+              <p className="focus-info-bit">{piece.dimensions}</p>
+            </div>
+          </Col>
+        </Row>
         <div id="focus-img-holder" className="img-bg">
           <img src={piece.smallPath} alt={piece.altText} id="focus-img" />
         </div>
@@ -38,7 +43,7 @@ export function PieceFocus() {
             <p>[{piece.fileSize}]</p>
           </Button>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }

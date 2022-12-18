@@ -1,5 +1,6 @@
 import "../styles/web-resume.css";
 import "../styles/common.css";
+import Button from "react-bootstrap/Button";
 
 export function WebResume() {
   return (
@@ -125,6 +126,16 @@ export function WebResume() {
             </div>
           </section>
         </div>
+      </div>
+      <div id="pdf-button-holder">
+        <Button
+          href="/images/alexfallawresume.pdf"
+          target="_blank"
+          id="pdf-button"
+          className="button-bg"
+        >
+          <p>Open PDF in New Tab</p>
+        </Button>
       </div>
     </div>
   );

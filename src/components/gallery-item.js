@@ -12,10 +12,12 @@ export const GalleryItem = ({ piece }) => (
           alt={piece.altText}
         />
       </a>
-      <div className="info text-alt-bg">
-        <h2 className="data">{piece.title}</h2>
-        <p className="data">{piece.year}</p>
-        <p className="data">{piece.medium}</p>
+      <div className="info-holder text-alt-bg">
+        <div className="info text-alt-bg">
+          <h2 className="data">{piece.title}</h2>
+          <p className="data">{piece.year}</p>
+          <p className="data">{piece.medium}</p>
+        </div>
       </div>
     </div>
     <div className="bottom-text text-bg">

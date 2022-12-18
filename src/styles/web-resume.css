@@ -106,3 +106,43 @@ ul {
 .work-info {
   font-style: italic;
 }
+
+/* button */
+#pdf-button {
+  background-color: #46ced7;
+  border: 0px solid transparent;
+  border-radius: 10rem;
+  padding: 1.5rem 2rem;
+}
+#pdf-button:hover {
+  background-color: #17a2b5;
+}
+#pdf-button p {
+  margin: 0;
+  color: #000000;
+}
+#pdf-button:hover p {
+  color: #ffffff;
+}
+#pdf-button-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 500px) {
+  #res-holder {
+    padding: 2rem;
+  }
+  .two-columns {
+    flex-direction: column;
+  }
+  .right-column {
+    margin-top: 0;
+  }
+  .left-column .skill-list {
+    margin-bottom: 0;
+  }
+}

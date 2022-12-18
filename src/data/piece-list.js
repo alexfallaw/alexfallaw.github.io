@@ -231,7 +231,7 @@ pieceArray.push(
     15,
     "Black Beauty Cover",
     "Fall 2022",
-    "Digital, InDesign and Photoshop",
+    "Digital, InDesign & Photoshop",
     "19 x 9 in",
     "Typographic Practice assignment",
     "",
