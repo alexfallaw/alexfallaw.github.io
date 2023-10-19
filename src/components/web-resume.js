@@ -55,6 +55,7 @@ export function WebResume() {
               <div className="half-column right-column">
                 <ul className="skill-list">
                   <li>WordPress</li>
+                  <li>Elementor for WordPress</li>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>Java</li>
@@ -96,32 +97,16 @@ export function WebResume() {
               Work Experience
             </h3>
             <div className="work-block">
-              <h4 className="work-h res-h">Lowes Cashier</h4>
+              <h4 className="work-h res-h">IWRC Website Manager</h4>
               <ul className="work-list">
                 <li>
                   Responsibilities
                   <ul className="sublist">
-                    <li>Deliver excellent customer service at the register</li>
-                    <li>Answer customer questions</li>
+                    <li>Maintain WordPress websites for IWRC and IGC</li>
+                    <li>Post content to websites</li>
                   </ul>
                 </li>
-                <li>Was awarded a service award for customer service</li>
-                <li className="work-info">May 2021 - August 2021</li>
-                <li className="work-info">Champaign, IL</li>
-              </ul>
-            </div>
-            <div className="work-block">
-              <h4 className="work-h res-h">House Cleaner</h4>
-              <ul className="work-list">
-                <li>
-                  Responsibilities
-                  <ul className="sublist">
-                    <li>Dishes</li>
-                    <li>Vacuuming</li>
-                    <li>General cleaning</li>
-                  </ul>
-                </li>
-                <li className="work-info">December 2019 - August 2021</li>
+                <li className="work-info">March 2023 - Present</li>
                 <li className="work-info">Champaign, IL</li>
               </ul>
             </div>
