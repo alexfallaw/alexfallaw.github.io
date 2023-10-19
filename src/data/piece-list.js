@@ -256,5 +256,20 @@ pieceArray.push(
     "p5 page"
   )
 );
+pieceArray.push(
+  new Piece(
+    17,
+    "Rhetoric and Composition assignment",
+    "Summer 2023",
+    "Figma",
+    "1681 x 7421 px",
+    "Mock DPI page hosting an article I wrote about geothermal energy storage",
+    "",
+    "/images/jpg/dpi_mockup.jpg",
+    "",
+    "Mockup of the top of an article on the DPI website. The article is titled \"The Future of Green Energy Storage Might be Found at the Bottom of a Well\".",
+    "Figma prototype embed"
+  )
+)
 
 export default pieceArray;
