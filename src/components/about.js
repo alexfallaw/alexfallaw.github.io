@@ -26,15 +26,7 @@ export function About() {
         </Row>
         <div id="about-bio" className="text-bg">
           <p id="about-bio-text">
-            I'm a graphic design and computer science student at the University
-            of Illinois Urbana-Champaign. I've been passionate about art for
-            almost a decade, experimenting with several different art forms over
-            the years. I have also come to love coding, both web design and
-            program development. I really enjoy the problem-solving involved in
-            programming, and I appreciate the flexibility it gives me in
-            manifesting my designs. I designed this website in Figma and
-            implemented it in React js, and all of the gallery pieces are my own
-            work.
+            I'm a student at the University of Illinois Urbana-Champaign, pursuing a graphic design major and computer science minor. I've been passionate about art for almost a decade, experimenting with several different art forms over the years. I have also come to love coding, both web design and program development. I really enjoy the problem-solving involved in programming, and I appreciate the flexibility it gives me in manifesting my designs. I designed this website in Figma and implemented it in React js, and all of the gallery pieces are my own work.
           </p>
         </div>
       </Container>
