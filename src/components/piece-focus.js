@@ -26,7 +26,7 @@ export function PieceFocus() {
   }
 
   if (piece.title === "Rhetoric and Composition assignment") {
-    pieceImg = <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F1vkuEB5av1mEyFzXfF6TyS%2FDPI-Geothermal-Energy-Storage%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D1-2%26viewport%3D507%252C184%252C0.1%26t%3DFffsfcpqyYtIIVTo-1%26scaling%3Dscale-down-width%26starting-point-node-id%3D1%253A2%26mode%3Ddesign" allowfullscreen></iframe>;
+    pieceImg = <img src={piece.largePath} alt={piece.altText} id="focus-img" />;
     pieceBttnTxt = "Open Figma Prototype in New Tab";
     pieceLink = "https://www.figma.com/proto/1vkuEB5av1mEyFzXfF6TyS/DPI-Geothermal-Energy-Storage?page-id=0%3A1&type=design&node-id=1-2&viewport=507%2C184%2C0.1&t=FffsfcpqyYtIIVTo-1&scaling=scale-down-width&starting-point-node-id=1%3A2&mode=design"
   }

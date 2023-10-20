@@ -266,9 +266,9 @@ pieceArray.push(
     "Mock DPI page hosting an article I wrote about geothermal energy storage",
     "",
     "/images/jpg/dpi_mockup.jpg",
-    "",
+    "/images/jpg/dpi_mockup.jpg",
     "Mockup of the top of an article on the DPI website. The article is titled \"The Future of Green Energy Storage Might be Found at the Bottom of a Well\".",
-    "Figma prototype embed"
+    "Figma prototype"
   )
 )
 
